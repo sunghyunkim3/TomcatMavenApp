@@ -5,37 +5,8 @@ package demo;
 
 
 public class App {
-
-    private int unusedFiledVariable = 1;
-
-    public String stringConcat() {
-
-        String [] strings = {"a", "b", "c", "d", "e", "f"};
-
-        String result = "";
-        for (int i = 0; i < strings.length; i++) {
-            result += strings[i];
-
-        }
-
-        return result;
-
-    }
-    public String getGreeting(int b, int c) { 
-
-        int a =  b / c;
-
-        return "Hello World!";
-    }
-
-    public static void main(String[] args) { 
-        System.out.println(new App().getGreeting(1,2));
-    }
 }
 
 class B {
-    public static boolean A() {
-        return false;
-    }
 }
 
